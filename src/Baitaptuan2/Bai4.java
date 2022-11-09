@@ -24,9 +24,9 @@ public class Bai4 {
             a[i] = sc.nextInt();
         
         boolean check = false;
-        for (int i = 0; i < n; i++)
-            if (isSuperPrime(a[i])){
-                System.out.print(a[i] + " ");
+        for (int x : a)
+            if (isSuperPrime(x)){
+                System.out.print(x + " ");
                 check = true;
             }
         

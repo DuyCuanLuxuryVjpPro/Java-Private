@@ -1,4 +1,4 @@
-package baitaptuan1;
+package Baitaptuan1;
 
 import java.util.Scanner;
 
